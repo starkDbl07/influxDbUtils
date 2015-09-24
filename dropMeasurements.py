@@ -109,7 +109,7 @@ if client:
                         if confirmation == 'Y':
                                 print ""
                                 print "Dropping MEASUREMENTS"
-                                #dropMeasurements(dropList)
+                                dropMeasurements(dropList)
                 elif command == 'l':
                                 print ""
                                 print dropList
@@ -118,6 +118,6 @@ if client:
                                 if confirmation == 'Y':
                                         print ""
                                         print "Dropping MEASUREMENTS"
-                                        #dropMeasurements(dropList)
+                                        dropMeasurements(dropList)
 sys.exit(1)
 
